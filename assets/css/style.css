@@ -168,6 +168,10 @@ header h2 {
 
 }
 
+.playlist .song:hover {
+    cursor: pointer;
+}
+
 .song.active {
     background-color: #b78a8a;
 }
