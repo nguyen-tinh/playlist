@@ -325,6 +325,7 @@
                             _this.currentIndex = Number(songNode.dataset.index)
                             _this.loadCurrentSong()
                             _this.render()
+                            audio.currentTime = 0
                             audio.play()
                         }
 
@@ -335,6 +336,7 @@
                             this.currentIndex = Number(songNode.dataset.index);
                             _this.loadCurrentSong()
                             _this.render()
+                            audio.currentTime = 0
                             audio.play()
                         }
                         
